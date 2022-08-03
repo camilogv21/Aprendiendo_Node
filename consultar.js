@@ -1,7 +1,7 @@
 var axios = require('axios');
 var data = JSON.stringify({
-    "collection": "VENDEDORES",
-    "database": "POSJuanCamiloGaleanoVelez",
+    "collection": "Aprendices",
+    "database": "FakeStore",
     "dataSource": "ClusterADSI2364481",
     "projection": {
         "_id": 1
@@ -14,7 +14,7 @@ var config = {
     headers: {
       'Content-Type': 'application/json',
       'Access-Control-Request-Headers': '*',
-      'api-key': '<gk2zQIpkQ5XCs7WrRqWKBWOzYeK0tOfi9EqvI0LYJUm78UiFSyOYFZe6aAiVHIRb>',
+      'api-key': 'gk2zQIpkQ5XCs7WrRqWKBWOzYeK0tOfi9EqvI0LYJUm78UiFSyOYFZe6aAiVHIRb',
     },
     data: data
 };
