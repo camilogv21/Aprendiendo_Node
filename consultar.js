@@ -4,7 +4,7 @@ var data = JSON.stringify({
     "database": "FakeStore",
     "dataSource": "ClusterADSI2364481",
     "projection": {
-        "_id": 1
+        
     }
 });
             
