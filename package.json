@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "juan camilo galeano",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "bootstrap": "^4.6.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^4.8.1",
     "mongoose": "^6.5.2"

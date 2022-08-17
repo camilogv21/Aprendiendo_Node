@@ -1,0 +1,11 @@
+
+<h2>Estamos en <%= lema %></h2>
+
+<ul>
+    <% matriculados.forEach(function(apre) { %>
+        <li>
+            <strong> nombre </strong> <%= apre.nombre %>
+            <strong> ficha </strong> <%= apre.ficha %>,<strong> promedio </strong> <%= apre.promedio %>
+        </li>
+    <% }); %>
+</ul>
